@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smalltalk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GameScreen"
+            android:label="@string/title_activity_game_screen" >
+        </activity>
+        <activity
+            android:name=".SettingScreen"
+            android:label="@string/title_activity_setting_screen"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+        <activity
+            android:name=".Settings30"
+            android:label="@string/title_activity_settings30"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+        <activity
+            android:name=".Settings301"
+            android:label="@string/title_activity_settings301"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+        <activity
+            android:name=".Settings31"
+            android:label="@string/title_activity_settings31"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+        <activity
+            android:name=".Settings32"
+            android:label="@string/title_activity_settings32"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+        <activity
+            android:name=".Settings311"
+            android:label="@string/title_activity_settings311"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+        <activity
+            android:name=".Settings312"
+            android:label="@string/title_activity_settings312"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+        <activity
+            android:name=".Settings313"
+            android:label="@string/title_activity_settings313"
+            android:parentActivityName=".GameScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.smalltalk.GameScreen" />
+        </activity>
+    </application>
+
+</manifest>

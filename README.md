@@ -1,2 +1,2 @@
-SmallTalkWalkThrough
-====================
+SmallTalk
+=========
